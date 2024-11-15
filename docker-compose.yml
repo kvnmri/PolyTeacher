@@ -9,3 +9,5 @@ services:
       - .:/polyteacher
     ports:
       - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=AIzaSyCIjxdG4nPWmAWJN7zFPtD6t235v1AMzI8

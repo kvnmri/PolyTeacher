@@ -15,3 +15,4 @@ ADD . /polyteacher
 
 # Install the libraries
 RUN pip install -r requirements.txt
+RUN pip install -q -U google-generativeai
